@@ -11,7 +11,7 @@ Faça os seguintes passos para executar o pipeline:
 1. Clone este repositório e navegue até ele.
 2. Na pasta do repositório, execute `pip install -r requirements.txt` no terminal
 3. Execute `docker-compose up -d` no terminal (espere até que o banco de dados Postgres preencha as tabelas).
-4. Depois que os dois contêineres estiverem ativos, execute python pipeline.py
+4. Depois que os dois contêineres estiverem ativos, execute `python pipeline.py`
 5. Execute o Passo 1 do Pipeline.
 6. Execute o Passo 2 do Pipeline.
 
