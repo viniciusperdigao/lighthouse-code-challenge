@@ -2,7 +2,7 @@
 
 Ferramentas necessárias:
 
-Python (tested in version 3.11)
+Python (Testado na versão 3.10)
 pip (package manager)
 Docker (docker-compose)
 
