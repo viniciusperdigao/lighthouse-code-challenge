@@ -1,18 +1,24 @@
-#Solution
+# Solução para o Desafio do LightHouse Indicium
 
-Necessary tools:
+Ferramentas necessárias:
 
 Python (tested in version 3.11)
 pip (package manager)
 Docker (docker-compose)
 
-Follow this steps to properly run this script:
+Faça os seguintes passos para executar o pipeline:
 
-Clone this repository and navigate into it.
-In repository folder, run pip install -r requirements.txt on terminal
-Run docker-compose up -d on terminal (wait until Postgres database populate tables. Run docker logs code-challenge_pg_db_1 and check if the last line is something like this: LOG: database system is ready to accept connections
-After both containers are up, run python pipeline.py
+1. Clone este repositório e navegue até ele.
+2. Na pasta do repositório, execute `pip install -r requirements.txt` no terminal
+3. Execute `docker-compose up -d` no terminal (espere até que o banco de dados Postgres preencha as tabelas).
+4. Depois que os dois contêineres estiverem ativos, execute python pipeline.py
+5. Execute o Passo 1 do Pipeline.
+6. Execute o Passo 2 do Pipeline.
 
+Os arquivos serão gerados no seguintes repositórios:
+* local/resultados - Resultado da Query final do desafio para repositório local.
+* local/csv - Arquivo order_details para repositório local.
+* local/postgres - Tabelas convertidas para repositório local.
 # code-challenge
 Indicium code challenge for Software Developer focusing on data projects
 
