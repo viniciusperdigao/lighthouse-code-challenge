@@ -2,9 +2,9 @@
 
 Ferramentas necessárias:
 
-Python (Testado na versão 3.10)
-pip (package manager)
-Docker (docker-compose)
+* Python (Testado na versão 3.10)
+* pip (package manager)
+* Docker (docker-compose)
 
 Faça os seguintes passos para executar o pipeline:
 
